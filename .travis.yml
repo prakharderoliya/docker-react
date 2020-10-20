@@ -17,6 +17,6 @@ deploy:
   env: "Dockerized-env"
   bucket_name: aws:elasticloadbalancing:eu-central-1:984065706511
   access_key_id: $Access_Key
-  secret_access_key: $Access_Secret
+  secret_access_key: $Access_Secrets
   on:
     branch: main
